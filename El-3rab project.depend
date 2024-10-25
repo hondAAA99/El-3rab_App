@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1729304575 source:c:\programming\c++\el-3rab project\imp.cpp
+
+1729380423 source:c:\programming\c++\el-3rab project\main.cpp
+	<iostream>
+	<string>
+
