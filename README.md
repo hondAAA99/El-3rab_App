@@ -20,7 +20,7 @@ A simple C++ program for managing customer information, calculating prices based
   g++ -o customer_management main.cpp
 ./customer_management
 
-###Available Operations:
+## Available Operations:
 
 'A' - Add a new customer.
 'F' - Find a customer and calculate their fee.
@@ -28,7 +28,7 @@ A simple C++ program for managing customer information, calculating prices based
 'D' - Calculate and display the total revenue for the day.
 'X' - Exit the program.
 
-###Code Overview
+## Code Overview
 Data Structure: The program uses a struct named vars to hold customer names, start and end times, prices, and the total revenue.
 Functions:
 operA - Add a new customer.
