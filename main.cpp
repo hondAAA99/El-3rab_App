@@ -15,6 +15,7 @@ int price1 = 9 , price2 = 17 , price3 = 24 , price4 = 30 , price5 = 35 ;
 
 };
 
+void operC();
 void operA (vars &myVars , int i);
 void operF (vars &myVars );
 void operFcalc(vars &myVars , int i);
@@ -23,8 +24,14 @@ void operD (vars &myVars);
 void operX (vars &myVars);
 
     int main (){
-        vars myVars ;
+        operC() ;
+
+        }
+
+void operC(){
+
         int i = 0 ;
+        vars myVars ;
         while ( myVars.op != 'X' ){
 
         cout << endl <<"enter the operation you want:- " << endl ;
@@ -50,9 +57,11 @@ void operX (vars &myVars);
              operX (myVars);
         } else {
         cout << "=> Be sure to follow the directions " << endl ;
+
         }
         }
 }
+
 
     void operA (vars &myVars , int i){
          cout << "enter the name: ";
